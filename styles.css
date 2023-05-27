@@ -1,0 +1,114 @@
+body{
+    background: linear-gradient(to right, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee, #f8f9fa);
+};
+
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    margin: auto;
+  
+  }
+  
+  
+
+ 
+
+  .btn-fixed-size{
+    max-width: 50px;
+  }
+
+  H1{
+    color:#023047;
+  }
+  
+  .campo{
+    max-width: 60%;
+    margin:auto;
+   
+  }
+
+  .parrafoP{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    border: solid black 2px;
+    border-radius: 5px;
+    max-width: 80%;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* boton de neon */
+.neon-button {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(59, 58, 58, 0.3);
+  }
+  
+  .neon-button::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: rgba(255, 93, 255, 0.891);
+    transform: rotate(60deg);
+    opacity: 0.9;
+    z-index: -1;
+  }
+  
+  .neon-button:hover {
+    background-color: rgb(33, 33, 33);
+    color: white;
+    box-shadow: 0 0 30px rgba(255, 93, 255, 0.891);
+  }
+
+  /* boton de neon */
+  .input-neon {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(59, 58, 58, 0.3);
+  }
+  
+  .input-neon::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: rgba(255, 93, 255, 0.891);
+    transform: rotate(60deg);
+    opacity: 0.9;
+    z-index: -1;
+  }
+  .inputclass{
+    width: 100%;
+  }
+
+  .eliminar{
+    background-color: black;
+  
+  }
+  
+
+  
+  
+
+  
