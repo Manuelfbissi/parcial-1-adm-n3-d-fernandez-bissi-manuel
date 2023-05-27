@@ -32,8 +32,7 @@ Vue.component('task-form', {
       </div>
     `
   });
-  
-  Vue.component('task-list', {
+ Vue.component('task-list', {
     data() {
       return {
         tasks: []
